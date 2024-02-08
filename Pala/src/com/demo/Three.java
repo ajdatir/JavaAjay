@@ -1,9 +1,10 @@
 package com.demo;
 
-public class Two {
+public class Three {
 
 	public static void main(String[] args) {
-		System.out.println("Java");
+		// TODO Auto-generated method stub
+
 	}
 
 }
