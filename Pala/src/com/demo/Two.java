@@ -1,12 +1,9 @@
 package com.demo;
 
-public class Pallendrom {
+public class Two {
 
 	public static void main(String[] args) {
-		
-		System.out.println("Welcome");
-		
-		
+		System.out.println("Java");
 	}
 
 }
