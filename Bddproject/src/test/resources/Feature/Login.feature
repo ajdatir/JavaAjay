@@ -2,8 +2,8 @@ Feature: Orange Hrm Feature File
 
   Scenario Outline: Validate Login Scenario
     Given I enter the "<Username>"
-    When I enter the "<Password>"
-    Then click login button
+    And I enter "<Password>"
+    And click login button
 
     Examples: 
       | Username      | Password     |
