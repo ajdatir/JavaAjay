@@ -17,11 +17,13 @@ public class Srm {
 		driver = new ChromeDriver();	
 		driver.manage().window().maximize();
 		
-	driver.get(ulr);
-//		SdduSteps.iOpenLoginPage();
-//		SdduSteps.sdsTransection();
-//		SdduSteps.iFillDirectPo();
-		
+		driver.get(ulr);
+		Thread.sleep(5000);
+	   new SdduSteps().iOpenLoginPage();
+		new SdduSteps().sdsTransection();
+		 new SdduSteps().iFillDirectPo();
+	   
+		driver.close();
 		
 		
 		
